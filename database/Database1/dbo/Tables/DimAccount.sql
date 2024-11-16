@@ -2,7 +2,7 @@
     [AccountKey]          INT            IDENTITY (1, 1) NOT NULL,
     [ParentAccountKey]    INT            NULL,
     [AccountLabel]        NVARCHAR (100) NULL,
-    [AccountName]         NVARCHAR (50)  NULL,
+    [AccountName2]         NVARCHAR (50)  NULL,
     [AccountDescription]  NVARCHAR (50)  NULL,
     [AccountType]         NVARCHAR (50)  NULL,
     [Operator]            NVARCHAR (50)  NULL,
